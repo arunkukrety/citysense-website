@@ -4,7 +4,7 @@ import { Hero } from './components/Hero';
 import { Problem } from './components/Problem';
 import { Solution } from './components/Solution';
 import { Map } from './components/Map';
-import { Footer } from './components/Footer';
+
 
 function App() {
   return (
@@ -12,11 +12,11 @@ function App() {
       <Navigation />
       <main className="pt-16">
         <Hero />
+        <Map />
         <Problem />
         <Solution />
-        <Map />
       </main>
-      <Footer />
+      
     </div>
   );
 }
